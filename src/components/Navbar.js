@@ -8,7 +8,7 @@ function Navbar() {
         >
           f.
         </a>
-        <form
+        {/* <form
           className="d-flex"
           role="search"
           method="get"
@@ -25,7 +25,7 @@ function Navbar() {
           <button className="btn btn-warning" type="submit">
             Search
           </button>
-        </form>
+        </form> */}
       </div>
       <div className="row mx-auto mt-3">
         <ul className="nav nav-tabs" id="myTab" role="tablist">

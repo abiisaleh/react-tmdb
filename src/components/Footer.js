@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer class="bg-gray p-3">
-      <p class="text-center">filmku by abiisaleh • 2024</p>
+      <p class="text-center">made by me • 2024</p>
       <ul class="nav justify-content-between col-3 col-sm-1 mx-auto">
         <li>
           <a href="https://api.whatsapp.com/send/?phone=6282238204776">

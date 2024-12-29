@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function Home() {
-  // dummy data
+  const API_KEY = process.env.TMDB_API_KEY;
 
   // movies
   const [movies, setMovies] = useState([]);
@@ -13,8 +13,7 @@ function Home() {
           "https://api.themoviedb.org/3/discover/movie",
           {
             headers: {
-              Authorization:
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NTFhODY1OTI4OWI4N2ZlNGE2YjNjZGU5ZmU0YjkzZSIsIm5iZiI6MTY0NDU5Njk1MC4zLCJzdWIiOiI2MjA2OGVkNmM1NmQyZDAwOWVkM2RiOWIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.v2y9ZuNdrFUK6CtFbLg7qNrABRNDSjDlpInogTW9hdo",
+              Authorization: "Bearer " + API_KEY,
             },
           }
         );
@@ -37,8 +36,7 @@ function Home() {
           "https://api.themoviedb.org/3/discover/tv",
           {
             headers: {
-              Authorization:
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NTFhODY1OTI4OWI4N2ZlNGE2YjNjZGU5ZmU0YjkzZSIsIm5iZiI6MTY0NDU5Njk1MC4zLCJzdWIiOiI2MjA2OGVkNmM1NmQyZDAwOWVkM2RiOWIiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.v2y9ZuNdrFUK6CtFbLg7qNrABRNDSjDlpInogTW9hdo",
+              Authorization: "Bearer " + API_KEY,
             },
           }
         );
@@ -53,7 +51,7 @@ function Home() {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <ul className="text-center nav justify-content-center">
           <li className="nav-item">
             <a className="d-block text-dark text-decoration-none mx-3" href="/">
@@ -119,7 +117,7 @@ function Home() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
 
       {/* <!-- Daftar Film maks 12 tiap baris 6 --> */}
       <div className="tab-content my-4" id="myTabContent">
