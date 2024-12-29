@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-tmdb/static/js/main.1868d3ad.js",
+    "static/js/488.9f9db26c.chunk.js": "/react-tmdb/static/js/488.9f9db26c.chunk.js",
+    "index.html": "/react-tmdb/index.html",
+    "main.1868d3ad.js.map": "/react-tmdb/static/js/main.1868d3ad.js.map",
+    "488.9f9db26c.chunk.js.map": "/react-tmdb/static/js/488.9f9db26c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1868d3ad.js"
+  ]
+}
